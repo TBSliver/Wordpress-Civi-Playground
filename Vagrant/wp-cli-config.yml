@@ -1,2 +1,8 @@
 require:
   - /home/ubuntu/wordpress/wp-content/plugins/civicrm/wp-cli/civicrm.php
+
+core download:
+  locale: en_GB
+
+core upgrade:
+  locale: en_GB
