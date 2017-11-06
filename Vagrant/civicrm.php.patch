@@ -1,0 +1,11 @@
+--- civicrm.php	2017-11-02 02:55:02.000000000 +0000
++++ civicrm.php	2017-11-06 12:56:11.888990288 +0000
+@@ -1293,7 +1293,7 @@
+ 			if ( $tarfile = $this->getOption( $option, false ) ) {
+ 				WP_CLI::launch( "gzip -d $tarfile" );
+ 				$tarfile = substr( $tarfile, 0, strlen( $tarfile ) - 3 );
+-				$this->exec( "tar -xf $tarfile -C \"$destination_path\"" );
++				WP_CLI::launch( "tar -xf $tarfile -C \"$destination_path\"" );
+ 				return true;
+ 			} else {
+ 				return false;
