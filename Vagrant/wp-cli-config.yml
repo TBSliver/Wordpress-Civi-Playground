@@ -1,0 +1,2 @@
+require:
+  - /home/ubuntu/wordpress/wp-content/plugins/civicrm/wp-cli/civicrm.php
