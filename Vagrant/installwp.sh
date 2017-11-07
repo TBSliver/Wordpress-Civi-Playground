@@ -47,6 +47,6 @@ wp plugin install \
   peters-login-redirect \
   --activate
 
-(crontab -l 2>/dev/null; echo "*/5 * * * * cd /home/ubuntu/wordpress && wp --user=admin civicrm api job.execute auth=0") | crontab -
+(crontab -l 2>/dev/null; echo "*/5 * * * * cd /home/ubuntu/wordpress; /usr/local/bin/wp --user=admin civicrm api job.execute auth=0") | crontab -
 
 exit 0
