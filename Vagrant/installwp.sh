@@ -39,5 +39,6 @@ wp civicrm install \
   --ssl=off \
   --user=admin
 
+(crontab -l 2>/dev/null; echo "*/5 * * * * cd /home/ubuntu/wordpress && wp --user=admin civicrm api job.execute auth=0") | crontab -
 
 exit 0
