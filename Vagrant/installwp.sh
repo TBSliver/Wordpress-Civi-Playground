@@ -25,7 +25,8 @@ wp core install \
   --title="Wordpress Dev Stuff" \
   --admin_user=admin \
   --admin_password=admin \
-  --admin_email=ubuntu@127.0.0.1
+  --admin_email="ubuntu@example.com" \
+  --skip-email
 
 wp civicrm install \
   --dbhost=localhost \
