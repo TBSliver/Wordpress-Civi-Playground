@@ -12,6 +12,7 @@ apt-get -y install \
   php-fpm \
   php-xml \
   language-pack-en \
+  php-curl \
   unzip
 
 wget --quiet https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
