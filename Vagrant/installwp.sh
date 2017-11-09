@@ -41,6 +41,7 @@ wp civicrm install \
 
 wp plugin install \
   civicrm-wp-profile-sync \
+  civicrm-admin-utilities \
   login-customizer \
   members \
   nav-menu-roles \
