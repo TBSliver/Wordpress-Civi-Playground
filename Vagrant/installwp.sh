@@ -17,4 +17,12 @@ wp core install \
   --admin_email="ubuntu@example.com" \
   --skip-email
 
+wp plugin install \
+  login-customizer \
+  members \
+  nav-menu-roles \
+  peters-login-redirect \
+  caldera-forms \
+  --activate
+
 exit 0
